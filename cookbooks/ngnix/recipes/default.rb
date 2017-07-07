@@ -12,7 +12,7 @@ service 'ngnix' do
 	action [ :enable, :start ]
 end
 
-file '/var/www/html/index.html'
+file '/var/www/html/index.html' do
 
 	content '<html>This is a placeholder for the home page.</html>'
 	mode '0755'
