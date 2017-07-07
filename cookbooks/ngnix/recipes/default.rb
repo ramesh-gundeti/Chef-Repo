@@ -6,8 +6,11 @@
 
 
 package 'ngnix' do
+	version '1.13.0'
 end
-service 'ngnix' do 
+
+service 'ngnix' do
+	 
 
 	action [ :enable, :start ]
 end
