@@ -5,12 +5,13 @@
 #
 
 
-package 'ngnix' do
+package 'tomcat' do
 	version '1.13.0'
 end
 
-service 'ngnix' do
-	 
+service 'tomcat' do
+
+	service_name 'tomcat'	 
 
 	action [ :enable, :start ]
 end
