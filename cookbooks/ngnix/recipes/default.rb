@@ -6,7 +6,6 @@
 
 
 package 'tomcat' do
-	version '1.13.0'
 end
 
 service 'tomcat' do
